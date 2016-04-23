@@ -1,8 +1,8 @@
 from easygui import *
 import sys
 
-while 1:
-
+while True:
+#test
     msgbox("Welcome to Exam #2 Take Home. Please hit ok to enter the image")
     imagePath = fileopenbox()
     print(imagePath)
