@@ -11,6 +11,7 @@ final = cv2.medianBlur(source, 3)
 cv2.imshow('Source_Picture', source) #Show the image
 cv2.imshow('Median Filtered Image', final) #Show the image
 cv2.waitKey()
+cv2.destroyAllWindows()
 e2 = cv2.getTickCount()
 time = (e2 - e1)/ cv2.getTickFrequency()
 print(time)
